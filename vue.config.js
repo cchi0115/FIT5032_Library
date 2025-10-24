@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/FIT5032Library/'
+  publicPath: '/FIT5032_Library/'
 }
