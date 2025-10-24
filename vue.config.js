@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath:  '/FIT5032_Library/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/FIT5032Library/'
+    : '/'
 }
